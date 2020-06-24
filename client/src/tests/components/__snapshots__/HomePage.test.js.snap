@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage should pass the snapshot test 1`] = `
+<div>
+  <div
+    className="ui fluid container"
+  >
+    <div
+      className="ui center aligned container"
+    >
+      <h1
+        className="ui header"
+        style={
+          Object {
+            "fontSize": "1.2em",
+            "marginTop": "2em",
+          }
+        }
+      >
+        Wemanity PhoneBook
+      </h1>
+      <h5
+        className="ui header"
+        style={
+          Object {
+            "fontSize": "1.2em",
+            "fontWeight": "normal",
+            "marginBottom": 0,
+          }
+        }
+      >
+        <div
+          className="ui large icon input"
+        >
+          <input
+            onChange={[Function]}
+            placeholder="Search phone number..."
+            type="text"
+          />
+          <i
+            aria-hidden="true"
+            className="search circular link icon"
+            onClick={[Function]}
+          />
+        </div>
+      </h5>
+    </div>
+  </div>
+</div>
+`;
