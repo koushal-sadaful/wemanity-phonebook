@@ -44,6 +44,146 @@ exports[`HomePage should pass the snapshot test 1`] = `
           />
         </div>
       </h5>
+      <div
+        className="all-entreies"
+      >
+        <div
+          className="ui three cards"
+        >
+          <div
+            className="ui card home-page-entry"
+            onClick={[Function]}
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                Sax
+                , 
+                John
+              </div>
+              <div
+                className="description"
+              >
+                 
+                +852 01 1257854
+                  
+              </div>
+            </div>
+            <div
+              className="extra content"
+            >
+              <button
+                className="ui blue basic button"
+                onClick={[Function]}
+              >
+                 Edit 
+              </button>
+            </div>
+          </div>
+          <div
+            className="ui card home-page-entry"
+            onClick={[Function]}
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                Doe
+                , 
+                Jane
+              </div>
+              <div
+                className="description"
+              >
+                 
+                +852 112 155874
+                  
+              </div>
+            </div>
+            <div
+              className="extra content"
+            >
+              <button
+                className="ui blue basic button"
+                onClick={[Function]}
+              >
+                 Edit 
+              </button>
+            </div>
+          </div>
+          <div
+            className="ui card home-page-entry"
+            onClick={[Function]}
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                Smith
+                , 
+                Will
+              </div>
+              <div
+                className="description"
+              >
+                 
+                +52 10 12548
+                  
+              </div>
+            </div>
+            <div
+              className="extra content"
+            >
+              <button
+                className="ui blue basic button"
+                onClick={[Function]}
+              >
+                 Edit 
+              </button>
+            </div>
+          </div>
+          <div
+            className="ui card home-page-entry"
+            onClick={[Function]}
+          >
+            <div
+              className="content"
+            >
+              <div
+                className="header"
+              >
+                Jacobs
+                , 
+                Marc
+              </div>
+              <div
+                className="description"
+              >
+                 
+                +114 84 1478546
+                  
+              </div>
+            </div>
+            <div
+              className="extra content"
+            >
+              <button
+                className="ui blue basic button"
+                onClick={[Function]}
+              >
+                 Edit 
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

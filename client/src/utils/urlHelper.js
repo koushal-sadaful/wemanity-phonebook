@@ -9,4 +9,8 @@ export class UrlHelper {
         return ""
     }
 
+    static getExistingEntryData = (entryId) => {
+        return ""
+    }
+
 }

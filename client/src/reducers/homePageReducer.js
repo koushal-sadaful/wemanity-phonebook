@@ -1,5 +1,5 @@
 import {
-    CLEAR_ERROR,
+    CLEAR_HOME_PAGE_ERROR,
     FETCH_ALL_ENTRIES,
     FETCH_ALL_ENTRIES_ERROR,
     RESET_STATE, UPDATE_SEARCH_INPUT,
@@ -29,7 +29,7 @@ export default (state = initialState, action) => {
                 searchValue: action.data
             };
 
-        case CLEAR_ERROR:
+        case CLEAR_HOME_PAGE_ERROR:
             return {
                 ...state,
                 errorMessage: null

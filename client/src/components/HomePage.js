@@ -5,6 +5,8 @@ import {connect} from 'react-redux'
 import {Container, Header, Search, Grid, Select, Input} from "semantic-ui-react";
 import _ from 'lodash'
 import {fetchAllEntries, resetState, updateSearchInputValue} from "../actions/HomePageActions";
+import HomePageEntryDisplay from "./EntryComponent";
+import EntriesComponent from "./EntriesComponent";
 
 
 class HomePage extends React.Component {
@@ -18,7 +20,13 @@ class HomePage extends React.Component {
         this.props.resetState()
     }
 
+    componentDidMount() {
+        this.props.fetchAllEntries()
+    }
+
+
     render() {
+
         return (
             <div>
                 <Container fluid>
@@ -39,19 +47,19 @@ class HomePage extends React.Component {
                                 marginBottom: 0,
                             }}
                         >
-
                             <Input
                                 size={"large"}
                                 icon={{name: 'search', circular: true, link: true}}
                                 placeholder='Search phone number...'
                                 onChange={_.debounce(this.searchInputUpdated, 500, {leading: true})}
                             />
-
-
                         </Header>
+
+                        <EntriesComponent
+                            entries={this.props.allEntries}
+                            searchValue={this.props.searchValue}
+                        />
                     </Container>
-
-
 
                 </Container>
             </div>
