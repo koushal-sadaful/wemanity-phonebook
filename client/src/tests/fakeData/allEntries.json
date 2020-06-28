@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "firstName": "John",
+      "lastName": "Sax",
+      "phoneNumber": "+852 01 1257854"
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "phoneNumber": "+852 112 155874"
+    },
+    {
+      "firstName": "Will",
+      "lastName": "Smith",
+      "phoneNumber": "+52 10 12548"
+    },
+    {
+      "firstName": "Marc",
+      "lastName": "Jacobs",
+      "phoneNumber": "+114 84 1478546"
+    }
+  ]
+}
